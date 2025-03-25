@@ -38,10 +38,10 @@
 // | SHFT | PWR |     |     |     |     |   |     |     | LFT | DWN |  UP |  RGT |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &rgb_ug RGB_COLOR_HSB(0,0,255) &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_EFR &rgb_ug BRI &rgb_ug RGB_BRD   &trans   &trans   &trans &trans    &trans &trans
-   &kp LSHFT  &ext_power EP_TOG    &trans    &trans       &trans       &trans         &trans   &trans   &kp LEFT &kp DOWN &kp UP &kp RIGHT
-                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &kp ESC                        &kp N1               &kp N2   &kp N3       &kp N4             &kp N5                   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0 &kp BSPC
+   &rgb_ug RGB_COLOR_HSB(0,0,255) &rgb_ug RGB_TOG      &trans   &trans       &rgb_ug RGB_BRI    &rgb_ug RGB_BRD          &trans         &trans   &trans   &trans   &trans   &trans
+   &kp LSHFT                      &ext_power EP_TOG    &trans   &trans       &trans             &trans                   &trans   &trans   &kp LEFT &kp DOWN &kp UP &kp RIGHT
+                                    &kp LGUI     &trans       &kp SPACE        &kp RET  &trans   &kp RALT
                         >;
                 };
 
